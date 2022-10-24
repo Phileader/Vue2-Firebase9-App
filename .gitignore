@@ -23,7 +23,7 @@ pnpm-debug.log*
 *.sw?
 
 # Firebase
-firebase-setting.js
+firebaseDb.js
 
 # Note
 note.txt
