@@ -220,8 +220,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [contributors-url]: https://github.com/Phileader/Vue2-Firebase9-App/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Phileader/Vue2-Firebase9-App?style=for-the-badge
 [forks-url]: https://github.com/Phileader/Vue2-Firebase9-App/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
+[stars-shield]: https://img.shields.io/github/stars/Phileader/Vue2-Firebase9-App?style=for-the-badge
+[stars-url]: https://github.com/Phileader/Vue2-Firebase9-App/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Phileader/Vue2-Firebase9-App?style=for-the-badge
 [issues-url]: https://github.com/Phileader/Vue2-Firebase9-App/issues
 [license-shield]: https://img.shields.io/github/license/Phileader/Vue2-Firebase9-App?style=for-the-badge
