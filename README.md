@@ -103,6 +103,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![Google_Cloud][Google_Cloud]][Google_Cloud-url]
 * [![Node][Node.js]][Node-url]
+* [![Javascript][Javascript]][Javascript-url]
 * [![HTML5][HTML5]][HTML5-url]
 
 <!-- GETTING STARTED -->
@@ -238,8 +239,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Google_Cloud-url]: https://cloud.google.com/
 [Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
+[Javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[Javascript-url]: https://www.javascript.com/
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
