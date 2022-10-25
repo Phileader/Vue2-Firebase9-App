@@ -106,6 +106,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![Javascript][Javascript]][Javascript-url]
 * [![CSS3][CSS3]][CSS3-url]
 * [![HTML5][HTML5]][HTML5-url]
+* [![Visual_Studio_Code][Visual_Studio_Code]][Visual_Studio_Code-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -246,5 +247,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [CSS3-url]: https://www.w3.org/Style/CSS/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[Visual_Studio_Code]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
+[Visual_Studio_Code-url]: https://code.visualstudio.com/
