@@ -140,15 +140,27 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
    ```sh
    git clone https://github.com/Phileader/Vue2-Firebase9-App.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    cd Vue2-Firebase9-App
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Rename the src/firebase-template.js file to src/firebaseDb.js
    ```
+   ren [DIR]/src/firebase-template.js firebaseDb.js
+   ```
+4. In the firebaseDb.js file, fill in the Firebase SDK information
+ ```
+  const firebaseConfig = {
+    apiKey: "[YOUR APIKEY]",
+    authDomain: "[YOUR AUTHDOMAIN]",
+    databaseURL: "[YOUR DATABASEURL]",
+    projectId: "[YOUR PROJECTID]",
+    storageBucket: "[YOUR STORAGEBUCKET]",
+    messagingSenderId: "[YOUR MESSAGINGSENDERID]",
+    appId: "[YOUR APPID]"
+  };
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
