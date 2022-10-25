@@ -37,7 +37,7 @@
 <h3 align="center">Vue2-Firebase9-App</h3>
 
   <p align="center">
-    project_description
+    CRUD Application with Vue.js and Firebase 9
     <br />
     <a href="https://github.com/Phileader/Vue2-Firebase9-App"><strong>Explore the docs »</strong></a>
     <br />
