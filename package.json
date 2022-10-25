@@ -21,7 +21,7 @@
   },
   "repository": {
       "type": "git",
-      "url": "https://github.com/Phileader/cli.git"
+      "url": "https://github.com/Phileader/Vue2-Firebase9-App.git"
   },
   "browserslist": [
     "> 1%",
