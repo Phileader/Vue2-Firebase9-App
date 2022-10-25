@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://www.wopagency.com/images_github/Vuejs-Firebase-V01.png" alt="Logo" width="189" height="115">
   </a>
 
 <h3 align="center">Vue2-Firebase9-App</h3>
@@ -123,13 +123,13 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Phileader/Vue2-Firebase9-App.git
    ```
 3. Install NPM packages
    ```sh
+   cd Vue2-Firebase9-App
    npm install
    ```
 4. Enter your API in `config.js`
