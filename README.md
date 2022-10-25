@@ -102,6 +102,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Skills
 
 * [![Google_Cloud][Google_Cloud]][Google_Cloud-url]
+* [![Node][Node.js]][Node-url]
 * [![HTML5][HTML5]][HTML5-url]
 
 <!-- GETTING STARTED -->
@@ -235,8 +236,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Vue-url]: https://vuejs.org/
 [Google_Cloud]: https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white
 [Google_Cloud-url]: https://cloud.google.com/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
