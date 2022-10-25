@@ -178,7 +178,48 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--  -->
+## Deployment
 
+Deploy the Vue 2 Application to Firebase Hosting
+
+1. Build the application
+   ```sh
+   npm run build
+   ```
+   The above command has created a `dist` folder in your Vue.js application
+
+2. Get inside the dist folder.
+   ```sh
+   cd dist
+   ```
+
+3. Login Firebase CLI  
+   Let us login to the Firebase console using Firebase command-line tool
+   ```sh
+   firebase login
+   ```
+
+4. Login Firebase CLI  
+   Initialize Firebase + Vue Project
+   ```sh
+   firebase init
+   ```
+   Then, select from the following Firebase CLI features list.
+   1. Select [Hosting: Configure files for Firebase Hosting and (optionnaly) set up GitHub Action Deploys]
+   2. Select [Use an existing project]
+   3. Select the project in the list
+   4. For the public directory, enter: [.]
+   5. For the configuration of a single page, choose [Yes]
+   6. For the automatic builds (GitHub), choose [No]
+   7. To overwrite the index.html file, enter [No] 
+  
+
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
