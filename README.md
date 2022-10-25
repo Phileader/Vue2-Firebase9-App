@@ -170,9 +170,9 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
    The fields will be:
    ```sh
    {
-    email: "",
-    name: "",
-    phone: ""
+    "email": "",
+    "name": "",
+    "phone": ""
    }
    ```
 
