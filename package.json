@@ -19,9 +19,12 @@
     "@vue/cli-service": "~4.5.13",
     "vue-template-compiler": "^2.6.11"
   },
+  "engines": {
+    "node": ">=16.0.0 <17.0.0"
+  },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/Phileader/Vue2-Firebase9-App.git"
+    "type": "git",
+    "url": "https://github.com/Phileader/Vue2-Firebase9-App.git"
   },
   "browserslist": [
     "> 1%",
