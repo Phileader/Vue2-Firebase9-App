@@ -82,9 +82,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+CRUD process implementation test application with Vue.js and Firebase (Hosting and Firestore)
+Modular Version 9.  
+This SDK introduces a modular approach that offers a smaller SDK size and greater efficiency with modern JavaScript build tools such as webpack or Rollup.  
+Version 9 integrates well with build tools that remove code that is not used in your application, a process known as "tree-shaking" .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
