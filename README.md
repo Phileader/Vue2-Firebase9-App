@@ -115,7 +115,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Node and npm must be installed on your workstation. For versions see the "Engines" section in the project's package.json file.  
+A google cloud account is required.  
+You have to create a project in Firebase console with a web application and it will contain the Hosting and Firestore Database products.
 * npm
   ```sh
   npm install npm@latest -g
