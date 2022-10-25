@@ -200,8 +200,8 @@ Deploy the Vue 2 Application to Firebase Hosting
    firebase login
    ```
 
-4. Login Firebase CLI  
-   Initialize Firebase + Vue Project
+4. Initialize Firebase + Vue Project  
+   Use the following command to initialize the Firebase for our Vue.js application.
    ```sh
    firebase init
    ```
@@ -212,7 +212,13 @@ Deploy the Vue 2 Application to Firebase Hosting
    4. For the public directory, enter: [.]
    5. For the configuration of a single page, choose [Yes]
    6. For the automatic builds (GitHub), choose [No]
-   7. To overwrite the index.html file, enter [No] 
+   7. To overwrite the index.html file, enter [No]  
+   
+   At the end of the project initialization, two files are created in the `dist` folder 
+   1. .firebaserc
+   2. firebase.json
+   
+5. 
   
 
 
