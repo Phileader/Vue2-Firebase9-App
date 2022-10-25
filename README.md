@@ -134,6 +134,8 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
   npm install -g firebase-tools
   ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Installation
 
 1. Clone the repo
@@ -218,12 +220,21 @@ Deploy the Vue 2 Application to Firebase Hosting
    1. .firebaserc
    2. firebase.json
    
-5. 
-  
-
-
-
-
+5. Creating a deployment target and applying a TARGET_NAME to a hosting site
+   ```sh
+   firebase target:apply hosting [TARGET_NAME] [RESSOURCE_IDENTIFIER]
+   ```
+6. Configure firebase.json  
+   Add "target": "[TARGET_NAME]" before "public" in "hosting" ressource
+     
+7. Test in firebase emulator     
+   ```sh
+   firebase emulators:start --only hosting:[TARGET_NAME]
+   ```
+8. Deployment   
+   ```sh
+   firebase deploy --only hosting:[TARGET_NAME]
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
