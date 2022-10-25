@@ -104,6 +104,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![Google_Cloud][Google_Cloud]][Google_Cloud-url]
 * [![Node][Node.js]][Node-url]
 * [![Javascript][Javascript]][Javascript-url]
+* [![CSS3][CSS3]][CSS3-url]
 * [![HTML5][HTML5]][HTML5-url]
 
 <!-- GETTING STARTED -->
@@ -241,8 +242,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Node-url]: https://nodejs.org/
 [Javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 [Javascript-url]: https://www.javascript.com/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
+[CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS3-url]: https://www.w3.org/Style/CSS/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
