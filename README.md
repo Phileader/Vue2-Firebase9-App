@@ -151,17 +151,30 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
    ```
 4. In the firebaseDb.js file, fill in the Firebase SDK information.  
    These are in the parameters of the web application of your Firebase project.
- ```
-  const firebaseConfig = {
-    apiKey: "[YOUR APIKEY]",
-    authDomain: "[YOUR AUTHDOMAIN]",
-    databaseURL: "[YOUR DATABASEURL]",
-    projectId: "[YOUR PROJECTID]",
-    storageBucket: "[YOUR STORAGEBUCKET]",
-    messagingSenderId: "[YOUR MESSAGINGSENDERID]",
-    appId: "[YOUR APPID]"
-  };
+ ```sh
+    const firebaseConfig = {
+      apiKey: "[YOUR APIKEY]",
+      authDomain: "[YOUR AUTHDOMAIN]",
+      databaseURL: "[YOUR DATABASEURL]",
+      projectId: "[YOUR PROJECTID]",
+      storageBucket: "[YOUR STORAGEBUCKET]",
+      messagingSenderId: "[YOUR MESSAGINGSENDERID]",
+      appId: "[YOUR APPID]"
+    };
 ```
+5. Run application
+   ```sh
+   npm run serve
+   ```
+6. The collection "users_vue" is not created and will be when you add the first user.  
+   The fields will be:
+   ```sh
+   {
+    email: "",
+    name: "",
+    phone: ""
+   }
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
