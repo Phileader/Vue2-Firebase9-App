@@ -116,11 +116,22 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 Node and npm must be installed on your workstation. For versions see the "Engines" section in the project's package.json file.  
+* Vue CLI
+  ```sh
+  npm install -g @vue/cli
+  ```
+The CLI ( @vue/cli ) is a globally installed npm package and provides the vue command in your terminal. Minimum version: 4.5.x.
+Verify the vue-cli installed version:
+* Vue CLI version
+  ```sh
+  vue --version
+  ```
 A google cloud account is required.  
 You have to create a project in Firebase console with a web application and it will contain the Hosting and Firestore Database products.
-* npm
+After you have to install the Firebase CLI (command-line tool). It allows us to safely and swiftly host our Vue app with Firebase Hosting.
+* Firebase CLI
   ```sh
-  npm install npm@latest -g
+  npm install -g firebase-tools
   ```
 
 ### Installation
