@@ -220,7 +220,8 @@ Deploy the Vue 2 Application to Firebase Hosting
    1. .firebaserc
    2. firebase.json
    
-5. Creating a deployment target and applying a TARGET_NAME to a hosting site
+5. Creating a deployment target and applying a TARGET_NAME to a hosting site  
+   TARGET_NAME is a short name identifier that you define yourself.
    ```sh
    firebase target:apply hosting [TARGET_NAME] [RESSOURCE_IDENTIFIER]
    ```
