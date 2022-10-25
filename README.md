@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://www.wopagency.com/images_github/Vuejs-Firebase-V01.png" alt="Logo" width="189" height="115">
+    <img src="https://www.wopagency.com/images_github/Vuejs-Firebase-V02.png" alt="Logo" width="189" height="115">
   </a>
 
 <h3 align="center">Vue2-Firebase9-App</h3>
