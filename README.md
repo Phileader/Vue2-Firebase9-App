@@ -202,8 +202,6 @@ Project Link: [https://github.com/Phileader/Vue2-Firebase9-App](https://github.c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
