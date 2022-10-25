@@ -69,7 +69,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -82,9 +81,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+CRUD process implementation test application with Vue.js and Firebase (Hosting and Firestore)
+Modular Version 9.  
+This SDK introduces a modular approach that offers a smaller SDK size and greater efficiency with modern JavaScript build tools such as webpack or Rollup.  
+Version 9 integrates well with build tools that remove code that is not used in your application, a process known as "tree-shaking" .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,18 +110,28 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 Node and npm must be installed on your workstation. For versions see the "Engines" section in the project's package.json file.  
+* Vue CLI
+  ```sh
+  npm install -g @vue/cli
+  ```
+The CLI ( @vue/cli ) is a globally installed npm package and provides the vue command in your terminal. Minimum version: 4.5.x.
+Verify the vue-cli installed version:
+* Vue CLI version
+  ```sh
+  vue --version
+  ```
 A google cloud account is required.  
 You have to create a project in Firebase console with a web application and it will contain the Hosting and Firestore Database products.
-* npm
+After you have to install the Firebase CLI (command-line tool). It allows us to safely and swiftly host our Vue app with Firebase Hosting.
+* Firebase CLI
   ```sh
-  npm install npm@latest -g
+  npm install -g firebase-tools
   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
 
@@ -129,29 +139,103 @@ You have to create a project in Firebase console with a web application and it w
    ```sh
    git clone https://github.com/Phileader/Vue2-Firebase9-App.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    cd Vue2-Firebase9-App
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Copy the src/firebase-template.js file to src/firebaseDb.js
+   ```
+   copy [DIR]/src/firebase-template.js firebaseDb.js
+   ```
+4. In the firebaseDb.js file, fill in the Firebase SDK information.  
+   These are in the parameters of the web application of your Firebase project.
+ ```sh
+    const firebaseConfig = {
+      apiKey: "[YOUR APIKEY]",
+      authDomain: "[YOUR AUTHDOMAIN]",
+      databaseURL: "[YOUR DATABASEURL]",
+      projectId: "[YOUR PROJECTID]",
+      storageBucket: "[YOUR STORAGEBUCKET]",
+      messagingSenderId: "[YOUR MESSAGINGSENDERID]",
+      appId: "[YOUR APPID]"
+    };
+```
+5. Run application
+   ```sh
+   npm run serve
+   ```
+6. The collection "users_vue" is not created and will be when you add the first user.  
+   The fields will be:
+   ```sh
+   {
+    "email": "",
+    "name": "",
+    "phone": ""
+   }
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--  -->
+## Deployment
 
+Deploy the Vue 2 Application to Firebase Hosting
 
-<!-- USAGE EXAMPLES -->
-## Usage
+1. Build the application
+   ```sh
+   npm run build
+   ```
+   The above command has created a `dist` folder in your Vue.js application
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+2. Get inside the dist folder.
+   ```sh
+   cd dist
+   ```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+3. Login Firebase CLI  
+   Let us login to the Firebase console using Firebase command-line tool
+   ```sh
+   firebase login
+   ```
+
+4. Initialize Firebase + Vue Project  
+   Use the following command to initialize the Firebase for our Vue.js application.
+   ```sh
+   firebase init
+   ```
+   Then, select from the following Firebase CLI features list.
+   1. Select [Hosting: Configure files for Firebase Hosting and (optionnaly) set up GitHub Action Deploys]
+   2. Select [Use an existing project]
+   3. Select the project in the list
+   4. For the public directory, enter: [.]
+   5. For the configuration of a single page, choose [Yes]
+   6. For the automatic builds (GitHub), choose [No]
+   7. To overwrite the index.html file, enter [No]  
+   
+   At the end of the project initialization, two files are created in the `dist` folder 
+   1. .firebaserc
+   2. firebase.json
+   
+5. Creating a deployment target and applying a TARGET_NAME to a hosting site  
+   TARGET_NAME is a short name identifier that you define yourself.
+   ```sh
+   firebase target:apply hosting [TARGET_NAME] [RESSOURCE_IDENTIFIER]
+   ```
+6. Configure firebase.json  
+   Add "target": "[TARGET_NAME]" before "public" in "hosting" ressource
+     
+7. Test in firebase emulator     
+   ```sh
+   firebase emulators:start --only hosting:[TARGET_NAME]
+   ```
+8. Deployment   
+   ```sh
+   firebase deploy --only hosting:[TARGET_NAME]
+   ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
