@@ -144,11 +144,11 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
    cd Vue2-Firebase9-App
    npm install
    ```
-3. Copy the src/firebase-template.js file to src/firebaseDb.js
+3. Copy the `src/firebase-template.js` file to `src/firebaseDb.js`
    ```
    copy [DIR]/src/firebase-template.js firebaseDb.js
    ```
-4. In the firebaseDb.js file, fill in the Firebase SDK information.  
+4. In the `firebaseDb.js` file, fill in the Firebase SDK information.  
    These are in the parameters of the web application of your Firebase project.
  ```js
     const firebaseConfig = {
