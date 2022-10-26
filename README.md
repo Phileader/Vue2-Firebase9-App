@@ -150,7 +150,7 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
    ```
 4. In the firebaseDb.js file, fill in the Firebase SDK information.  
    These are in the parameters of the web application of your Firebase project.
- ```sh
+ ```js
     const firebaseConfig = {
       apiKey: "[YOUR APIKEY]",
       authDomain: "[YOUR AUTHDOMAIN]",
@@ -167,7 +167,7 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
    ```
 6. The collection "users_vue" is not created and will be when you add the first user.  
    The fields will be:
-   ```sh
+   ```js
    {
     "email": "",
     "name": "",
@@ -188,7 +188,7 @@ Deploy the Vue 2 Application to Firebase Hosting
    ```
    The above command has created a `dist` folder in your Vue.js application
 
-2. Get inside the dist folder.
+2. Get inside the `dist` folder.
    ```sh
    cd dist
    ```
