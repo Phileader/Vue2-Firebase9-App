@@ -1,7 +1,9 @@
 {
   "name": "vue-firebase-test-v9",
-  "version": "0.1.0",
-  "private": true,
+  "author": "Phileader <pclevy@wopagency.com> (https://www.wopagency.com/)",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "CRUD application with Vue.js and Firebase",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
@@ -20,7 +22,12 @@
     "vue-template-compiler": "^2.6.11"
   },
   "engines": {
-      "node": ">=16.0.0 <17.0.0"
+    "node": ">=16.0.0 <17.0.0",
+    "npm": "~8.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phileader/Vue2-Firebase9-App.git"
   },
   "browserslist": [
     "> 1%",
