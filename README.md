@@ -69,7 +69,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -82,9 +81,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+CRUD process implementation test application with Vue.js and Firebase (Hosting and Firestore)
+Modular Version 9.  
+This SDK introduces a modular approach that offers a smaller SDK size and greater efficiency with modern JavaScript build tools such as webpack or Rollup.  
+Version 9 integrates well with build tools that remove code that is not used in your application, a process known as "tree-shaking" .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,9 +110,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 Node and npm must be installed on your workstation. For versions see the "Engines" section in the project's package.json file.  
@@ -134,6 +131,8 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
   npm install -g firebase-tools
   ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Installation
 
 1. Clone the repo
@@ -145,13 +144,13 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
    cd Vue2-Firebase9-App
    npm install
    ```
-3. Copy the src/firebase-template.js file to src/firebaseDb.js
+3. Copy the `src/firebase-template.js` file to `src/firebaseDb.js`
    ```
    copy [DIR]/src/firebase-template.js firebaseDb.js
    ```
-4. In the firebaseDb.js file, fill in the Firebase SDK information.  
+4. In the `firebaseDb.js` file, fill in the Firebase SDK information.  
    These are in the parameters of the web application of your Firebase project.
- ```sh
+ ```js
     const firebaseConfig = {
       apiKey: "[YOUR APIKEY]",
       authDomain: "[YOUR AUTHDOMAIN]",
@@ -168,7 +167,7 @@ After you have to install the Firebase CLI (command-line tool). It allows us to 
    ```
 6. The collection "users_vue" is not created and will be when you add the first user.  
    The fields will be:
-   ```sh
+   ```js
    {
     "email": "",
     "name": "",
@@ -189,7 +188,7 @@ Deploy the Vue 2 Application to Firebase Hosting
    ```
    The above command has created a `dist` folder in your Vue.js application
 
-2. Get inside the dist folder.
+2. Get inside the `dist` folder.
    ```sh
    cd dist
    ```
@@ -218,24 +217,25 @@ Deploy the Vue 2 Application to Firebase Hosting
    1. .firebaserc
    2. firebase.json
    
-5. 
-  
-
-
-
+5. Creating a deployment target and applying a TARGET_NAME to a hosting site  
+   TARGET_NAME is a short name identifier that you define yourself.
+   ```sh
+   firebase target:apply hosting [TARGET_NAME] [RESSOURCE_IDENTIFIER]
+   ```
+6. Configure firebase.json  
+   Add "target": "[TARGET_NAME]" before "public" in "hosting" ressource
+     
+7. Test in firebase emulator     
+   ```sh
+   firebase emulators:start --only hosting:[TARGET_NAME]
+   ```
+8. Deployment   
+   ```sh
+   firebase deploy --only hosting:[TARGET_NAME]
+   ```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
