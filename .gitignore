@@ -27,3 +27,6 @@ firebaseDb.js
 
 # Note
 note.txt
+
+# Firebase build files
+/firebase-build/
